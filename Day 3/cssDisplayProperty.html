@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS DISPLAY PROPERTY</title>
+    <style>
+        .block {
+            background-color: lightblue;
+        }
+        .inline-1 {
+            background-color: lightpink;
+        }
+        .inline-2 {
+            background-color: lightgreen;
+        }
+        .inline-block {
+            background-color: yellow;
+            display: inline-block;
+            height: 10rem;
+            width: 15rem; 
+        }
+        .inline-3 {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">I am a block level element 1</div>
+    <span class="inline-1">I am a inline element 1</span>
+    <span class="inline-2">I am a inline element 2</span>
+    <div class="block">I am block element 2</div>
+    <span class="inline-3">I am a inline element 3, I just occupy the space required by me. </span>
+    <span class="inline-block">I am an inline-block element 1, My height and widht can be set by user</span>
+</body>
+</html>

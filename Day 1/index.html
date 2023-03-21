@@ -5,10 +5,12 @@
     <title>Day 1</title>
     <style>
     /* Simple Selectors */
-     /* h1 {
+        /*
+        h1 {
             color: aqua;
             background-color: blueviolet;
         }
+        
         p {
             background-color: blanchedalmond;
         }
@@ -21,22 +23,26 @@
 
         /* Combinators */
 
-        /* .common p { \/\* Targets all the p inside the common class\*\/
+        /* Targets all the p inside the common class */
+        /* .common p {  
             color: lightcoral;
-        }
+        } */
 
-        .common > p { \/\* > Select the imediate p tag inside the common class i.e. which isn't nested\*\/
+        /* > Select the imediate p tag inside the common class i.e. which isn't nested*/
+        /* .common > p { 
             background-color: aqua;
-        }
+        } */
 
-        .common + div { \/\* Checks on the imediate sibling before anyother elmenet is encountered\*\/
+        /* Checks on the imediate sibling before anyother elmenet is encountered*/
+        .common + div { 
             background-color: blueviolet;
         }
 
-        .common ~ div { \/\* Checks all the siblings \*\/
+        /* Checks all the siblings */
+        /* .common ~ div { 
             color: blueviolet;
-        }
-        */
+        } */
+        
 
         
 
@@ -67,6 +73,7 @@
         <div class="something3">Somethings</div>
         <p>Hello!!3</p>
     </div>
+
     <div>
         hello From Sibling Div
     </div>
